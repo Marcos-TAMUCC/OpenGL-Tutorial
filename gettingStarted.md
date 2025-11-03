@@ -4,12 +4,11 @@
 
 <!-- Sidebar (left column) -->
 <nav aria-label="Tutorial sidebar" style="width:260px; background:#ffffff; padding:16px; border:1px solid #e1e4e8;">
-- **Welcome & Introduction**
-- [Setup Prerequisites](#setup-your-environment)
-- [First Program](#your-first-opengl-program)
-- Rendering Pipeline
-- Live Demo
-- Summary & Quiz
+- Introduction to OprnGL
+- Setup Prerequisites
+- Libs that need to be downloaded
+- Installation
+- Demo
 </nav>
 
 <!-- Main content (right column) -->
