@@ -17,20 +17,18 @@
 <!-- Main content (right column) -->
 <main style="flex:1; padding:0 8px;">
 
-![OpenGL Banner](../images/banner.png "OpenGL Tutorial Banner") 
-
 ---
 
 ## <a name="introduction"></a>Welcome & Introduction
 
-Welcome to **XM²’s OpenGL Horizontal Prototype Tutorial**.  
-This tutorial will guide you through setting up an OpenGL environment using **Code::Blocks**, **MinGW**, **GLFW**, and **GLAD**.  
+Welcome to the OpenGl Tutorial.  
+This tutorial will guide you through setting up an OpenGL environment using **Code::Blocks**, **MinGW**, **GLFW**,**GLAD**, and **GLM**.  
 
 You’ll learn to:
 - Configure OpenGL to your windows computer
 - Build and run a minimal OpenGL program
 - Render your first triangle
-- Edit shaders to change color using RGB values
+- Be able to edit shaders to change color using RGB values
 
 ---
 
@@ -47,14 +45,14 @@ This tutorial assumes you:
 - OpenGL
 - GLFW
 - GLAD
-
+- GLM
 ---
 
 ## <a name="installation"></a>Setup & Installation
 
-### Step 1: Install Code::Blocks
-- Download from the [official Code::Blocks site](https://www.codeblocks.org/downloads/)
-- Choose the version **with MinGW included**
+### Step 1: Install Code::Blocks with MingW
+- Download from the [official Code::Blocks download site](https://sourceforge.net/projects/codeblocks/files/Binaries/25.03/Windows/codeblocks-25.03mingw-setup.exe/download)
+- The .exe will already have the MingW version selected
 - Complete installation with default settings
 
 ### Step 2: Download Required Libraries
@@ -62,18 +60,22 @@ Download the following:
 - **OpenGL** (included with your graphics driver)
 - **GLFW** → [https://www.glfw.org/download.html](https://www.glfw.org/download.html)
 - **GLAD** → [https://glad.dav1d.de/](https://glad.dav1d.de/)
-
+- **GLM**  →
 ### Step 3: Extract & Organize
-- Place **GLFW** and **GLAD** folders inside your Code::Blocks project directory  
-  Example: `C:\Users\<name>\Documents\OpenGL_Tutorial\libs\`
-
+- NEED TO REWORK
+- Start by locating where CodeBlocks in installed and find the /libs path.
+- 
+  
 ### Step 4: Configure Project in Code::Blocks
 - Create a new **Console Application (C++)**
 - Go to **Project → Build Options → Linker Settings**
 - Add the following libraries:
   - `opengl32`
   - `glfw3`
-  - `glew32` or `glad`
+  - `glew32`
+  - `gdi32`
+  - `user32`
+  - `kernel32`
 - Under **Search Directories**, add paths for:
   - Include: `libs\include`
   - Library: `libs\lib`
@@ -100,9 +102,6 @@ Download the following:
 
 6. **Modify Triangle Color:**  
    Open the shader file and modify the RGB color values to change the triangle color dynamically.
-
-7. **Finish Tutorial:**  
-   Congratulations — you’ve completed your first OpenGL render!
 
 ---
 
