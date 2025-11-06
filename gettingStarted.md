@@ -59,7 +59,7 @@ Download the following:
 - **OpenGL** (included with your graphics driver)
 - **GLFW** → [https://www.glfw.org/download.html](https://www.glfw.org/download.html) and select the 64-bit binary file.
 - **GLEW** → [https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0-win32.zip/download.html)
-- **GLM** → [https://sourceforge.net/projects/glm.mirror/files/latest/download)
+
 ### Step 3: Extract & Organize
 - NEED TO REWORK
 - Start by locating where CodeBlocks in installed and find the /libs path.
