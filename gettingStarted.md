@@ -61,8 +61,11 @@ Download the following:
 - **GLEW** → [https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0-win32.zip/download.html)
 
 ### Step 3: Extract & Organize
-- NEED TO REWORK
-- Start by locating where CodeBlocks in installed and find the /libs path.
+- Begin by locatin the desktop shotcut of codeblocks and right click and select open file path.
+- Open the folder called MinGW and open the folder called lib.
+- Open the glfw zip folder and drag all three files into the lib folder.
+- Do the same with the Glew zip folder and drag the two files.
+- 
 - 
   
 ### Step 4: Configure Project in Code::Blocks
@@ -79,6 +82,11 @@ Download the following:
   - Include: `libs\include`
   - Library: `libs\lib`
 
+### Step 5: download and run example program:
+-Create a new consol appliation can paste the following code from this .txt file:
+
+<a href="https://raw.githubusercontent.com/Marcos-TAMUCC/OpenGL-Tutorial/refs/heads/main/Triangle.cpp" download style="display:inline-block; margin-top:8px; padding:8px 12px; background:#0078d7; color:white; border-radius:4px; text-decoration:none;">
+📄 Download OpenGL_Triangle_Code.txt
 ---
 
 ## <a name="workflow"></a>Workflow
@@ -100,9 +108,5 @@ Download the following:
    Open the shader file and modify the RGB color values to change the triangle color dynamically.
 
 ---
-
-## <a name="demo"></a>Demo & Next Steps
-
-
 </main>
 </div>
