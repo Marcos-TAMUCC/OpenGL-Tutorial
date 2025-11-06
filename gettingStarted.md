@@ -44,8 +44,7 @@ This tutorial assumes you:
 - Code::Blocks IDE with MinGW compiler
 - OpenGL
 - GLFW
-- GLAD
-- GLM
+- GLEW
 ---
 
 ## <a name="installation"></a>Setup & Installation
@@ -54,13 +53,13 @@ This tutorial assumes you:
 - Download from the [official Code::Blocks download site](https://sourceforge.net/projects/codeblocks/files/Binaries/25.03/Windows/codeblocks-25.03mingw-setup.exe/download)
 - The .exe will already have the MingW version selected
 - Complete installation with default settings
-
+- When launching CodeBlocks, select the GNU MinGW Compiler from the pop-up menu and press "Ok".
 ### Step 2: Download Required Libraries
 Download the following:
 - **OpenGL** (included with your graphics driver)
-- **GLFW** → [https://www.glfw.org/download.html](https://www.glfw.org/download.html)
-- **GLAD** → [https://glad.dav1d.de/](https://glad.dav1d.de/)
-- **GLM**  →
+- **GLFW** → [https://www.glfw.org/download.html](https://www.glfw.org/download.html) and select the 64-bit binary file.
+- **GLEW** → [https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0-win32.zip/download.html)
+- **GLM** → [https://sourceforge.net/projects/glm.mirror/files/latest/download)
 ### Step 3: Extract & Organize
 - NEED TO REWORK
 - Start by locating where CodeBlocks in installed and find the /libs path.
