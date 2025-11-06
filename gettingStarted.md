@@ -93,29 +93,16 @@ Download the following:
    Open the attached `.txt` file that contains your first OpenGL program.  
    Create a **Console Application**, copy and paste the code into `main.cpp`.
 
-4. **Load Shaders:**  
-   Import a provided shader file into your project to handle vertex and fragment operations.
-
-5. **Run the Program:**  
+4. **Run the Program:**  
    Build and run — a **triangle** should appear on screen!
 
-6. **Modify Triangle Color:**  
+5. **Modify Triangle Color:**  
    Open the shader file and modify the RGB color values to change the triangle color dynamically.
 
 ---
 
 ## <a name="demo"></a>Demo & Next Steps
 
-Include:
-- A **GIF or screenshot** of the running triangle
-- (Optional) A link to a hosted demo repository
-
-![Triangle Demo Placeholder](../images/demo.png "Triangle Render Example")
-
----
-
-Navigation:  
-[← Previous: Installation](#installation) • [Next: Shader Customization →](#workflow)
 
 </main>
 </div>
