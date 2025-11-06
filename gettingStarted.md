@@ -10,7 +10,6 @@
   <li><a href="#introduction">Introduction to OpenGL</a></li>
   <li><a href="#prerequisites">Setup Prerequisites</a></li>
   <li><a href="#installation">Installation</a></li>
-  <li><a href="#demo">Demo</a></li>
 </ul>
 </nav>
 
@@ -61,16 +60,16 @@ Download the following:
 - **GLEW** → [https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0-win32.zip/download.html)
 
 ### Step 3: Extract & Organize
-- Begin by locatin the desktop shotcut of codeblocks and right click and select open file path.
-- Open the folder called MinGW and open the folder called lib.
-- Open the glfw zip folder and drag all three files into the lib folder.
-- Do the same with the Glew zip folder and drag the two files.
-- 
-- 
+- Begin by locating the desktop shotcut of CodeBlocks , right click and select open file path.
+- Open the folder called MinGW ,then open the folder called lib.
+- Open the glfw zip folder we just downloaded and open the /lib-mingw-w64 folder,drag all three files into the MinGW lib folder
+- Do the same with the Glew zip folder and drag the two files. The path will look like: glew-2.2.0/lib/Release/x64
+- Now open the include folder back in the main MinGW folder and drag the folders from both /include folders in the zips. Make sure to drag the entire folder named GL and GLFW
+- Lastly return the the MinGW main folder and open the bin folder. Open the Glew.zip and open the bin folder. Drag the three files into the MinGW bin folder, the file path is: /glew-2.2.0/bin/release/x64.
   
 ### Step 4: Configure Project in Code::Blocks
 - Create a new **Console Application (C++)**
-- Go to **Project → Build Options → Linker Settings**
+- Go to **Settings → Compiler→ Linker Settings**
 - Add the following libraries:
   - `opengl32`
   - `glfw3`
@@ -78,15 +77,18 @@ Download the following:
   - `gdi32`
   - `user32`
   - `kernel32`
-- Under **Search Directories**, add paths for:
-  - Include: `libs\include`
-  - Library: `libs\lib`
 
-### Step 5: download and run example program:
+### Step 5: copy , paste and run example program:
 -Create a new consol appliation can paste the following code from this .txt file:
 
 <a href="https://raw.githubusercontent.com/Marcos-TAMUCC/OpenGL-Tutorial/refs/heads/main/Triangle.cpp" download style="display:inline-block; margin-top:8px; padding:8px 12px; background:#0078d7; color:white; border-radius:4px; text-decoration:none;">
 📄 Download OpenGL_Triangle_Code.txt
+
+### Step 6: Tutorial complete
+-If everything worked correctly a red triangle should appear on the screen.
+-You can change the color of the triangle by editing the line of code:
+-glUniform3f(colorLoc, 1.0f, 0.3f, 0.2f);  In RGB fashion.
+  
 ---
 
 ## <a name="workflow"></a>Workflow
